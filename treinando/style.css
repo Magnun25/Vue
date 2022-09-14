@@ -1,0 +1,59 @@
+body {
+	font-family: Arial;
+	font-size:14px;
+}
+#app {
+	max-width:1024px;
+	margin:auto;
+}
+
+.header {
+	min-height:100px;
+	background-color:#EEE;
+}
+
+.container {
+	display:flex;
+	min-height:400px;
+}
+.container__content {
+	flex:1;
+	background-color:#DDD;
+	padding:10px;
+}
+.container__sidebar {
+	width:300px;
+	background-color:#D1D1D1;
+	padding:10px;
+}
+
+.footer {
+	min-height:100px;
+	background-color:#EEE;
+}
+
+.colorBall {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	background-color: white;
+	margin-bottom: 10px;
+}
+
+.blue {
+	background-color: blue;
+	transition: all 1s ease-in-out;
+	color: white;
+}
+
+.red {
+	background-color: red;
+	transition: all 1s ease-in-out;
+	color: white;
+}
+
+.green {
+	background-color: green;
+	transition: all 1s ease-in-out;
+	color: black;
+}

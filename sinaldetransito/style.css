@@ -1,0 +1,45 @@
+.bola {
+   width: 100px;
+   height: 100px;
+   border-radius: 50px;
+   background-color: hsla(0, 0%, 0%, 0.1);
+   margin: 10px;
+   border: 1px solid #ffffff80;   
+}
+.fundo-semaforo {
+   display: inline-block;
+   position: relative;
+   left: 50%;
+   transform: translate(-50%);
+   background-color: #202020cc;
+   padding-block: 10px;
+   border-radius: 10px;
+   box-shadow: 2px 2px 3px black;
+}
+
+.painel {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 50px;
+}
+
+button {
+   background-color: #202020cc;
+   color: white;
+   margin: 10px;
+   padding: 10px;
+   font-size: 20px;
+   
+
+}
+.green {
+   background-color: green;
+}
+.red {
+   background-color: red;
+}
+.yellow {
+   background-color: yellow;
+}
+
